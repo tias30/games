@@ -1,4 +1,4 @@
-package games;
+ 
 
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 //import java.awt.Color; //untuk pengaturan warna
@@ -28,7 +28,7 @@ public class Counter extends Actor
      public void Counting (int hitung) // method Counting
      {
          totalCount += hitung;
-         setImage(new GreenfootImage("" + totalCount, 30, Color.WHITE, Color.BLACK)); //membuat tampilan perubahan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
+         setImage(new GreenfootImage("" + totalCount, 50, Color.WHITE, Color.BLACK)); //membuat tampilan perubahan counter dengan ukuran awal 30, tulisan warna putih, backgroun hitam
     }
     
     public void gameOver() //method gameOver

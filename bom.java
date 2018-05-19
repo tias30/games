@@ -1,4 +1,4 @@
-package games;
+ 
 
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
@@ -16,7 +16,7 @@ public class bom extends benda
      */
     public void act() 
     {
-       setLocation(getX(), getY()+5);
+       setLocation(getX(), getY()+10);
        meledak();
     }    
     
