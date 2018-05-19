@@ -19,6 +19,8 @@ public class lemon extends benda
     {
         setLocation(getX(), getY()+6); //posisi objek banana, kecepatan banana = +6
         LemonFall(); //lakukan method BananaFall
+        LemonFall();
+        LemonFall();
     } 
     
     public void  LemonFall() //method BananaFall
