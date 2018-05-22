@@ -19,6 +19,8 @@ public class kereta extends benda
         {
          moveKereta(); //method moveMonkey
          objectDisappear(); //method objectDisappear
+         objectDisappear();
+         objectDisappear();
         }
     }    
        
